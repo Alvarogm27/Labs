@@ -1,8 +1,8 @@
-cp -v /vagrant/files/ns1.olimpo.test/named /etc/default/named
-cp -v /vagrant/files/ns1.olimpo.test/named.conf.options /etc/bind/named.conf.options
-cp -v /vagrant/files/ns1.olimpo.test/named.conf.local /etc/bind/named.conf.local
-cp -v /vagrant/files/ns1.olimpo.test/olimpo.test.dns /var/lib/bind/db.olimpo.test
-cp -v /vagrant/files/ns1.olimpo.test/192.168.57.dns /var/lib/bind/db.192.168.57
+cp -v /vagrant/files/ns1.olimpo.test/named /etc/default/
+cp -v /vagrant/files/ns1.olimpo.test/named.conf.options /etc/bind
+cp -v /vagrant/files/ns1.olimpo.test/named.conf.local /etc/bind
+cp -v /vagrant/files/ns1.olimpo.test/olimpo.test.dns /var/lib/bind
+cp -v /vagrant/files/ns1.olimpo.test/192.168.57.dns /var/lib/bind
 
 
 systemctl restart named
