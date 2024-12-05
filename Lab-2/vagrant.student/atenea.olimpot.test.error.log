@@ -1,3 +1,0 @@
-[Wed Nov 27 12:48:56.902736 2024] [mpm_event:notice] [pid 2454:tid 2454] AH00489: Apache/2.4.62 (Debian) configured -- resuming normal operations
-[Wed Nov 27 12:48:56.902816 2024] [core:notice] [pid 2454:tid 2454] AH00094: Command line: '/usr/sbin/apache2'
-[Wed Nov 27 12:48:59.088065 2024] [mpm_event:notice] [pid 2454:tid 2454] AH00491: caught SIGTERM, shutting down
